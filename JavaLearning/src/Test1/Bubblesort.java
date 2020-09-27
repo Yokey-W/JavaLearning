@@ -1,9 +1,12 @@
 package Test1;
 //冒泡排序法
 public class Bubblesort {
-	public static void main(String args[]){
-		Bubblesort2 sort = new Bubblesort2(); 
-		ArrayTest art = new ArrayTest();
+	/**
+	 * @param args
+	 * author wzy
+	 */
+	public  void bubbleSort1(){
+		
 		int array[] = {9,7,8,1};
 		int temp=0;
 		for(int i=1;i<array.length;i++){
@@ -15,11 +18,11 @@ public class Bubblesort {
 				}
 			}
 		}
+		System.out.print("冒泡排序的结果是：");
 		for(int m=0;m<array.length;m++){
-			//System.out.print(" "+array[m]);
+			System.out.print(" "+array[m]);
 		}
-		//sort.Bubblesort();
-		art.TwoArray();
+		System.out.println();
 	}
 
 }

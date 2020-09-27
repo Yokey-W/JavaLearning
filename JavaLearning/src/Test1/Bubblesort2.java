@@ -1,7 +1,7 @@
 package Test1;
 //冒泡排序法
 public class Bubblesort2 {
-	public void Bubblesort(){
+	public void bubbleSort(){
 		int array[]={1,3,6,8,9,5,9,0};
 		int temp;
 		for(int i=0;i<array.length;i++){
@@ -13,9 +13,11 @@ public class Bubblesort2 {
 				}
 			}
 		}
+		System.out.print("冒泡排序的结果是：");
 		for(int m=0;m<array.length;m++){
 			System.out.print(" "+array[m]);
 		}
+		System.out.println();
 	}
 
 }
